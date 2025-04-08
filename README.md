@@ -36,3 +36,9 @@ This paper presents two novel skull stripping methods for brain MRI images using
 - Integration of the models into established clinical workflows for real-world testing is mentioned as a crucial step for bringing deep learning research into practice.
 
 The fast and accurate skull stripping methods developed in this work can potentially form a useful component of brain MRI analysis pipelines, significantly speeding up larger image processing workflows.
+
+Publications:
+1. 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai,
+S. Kaliyugarasan, M. Kociński, A. Lundervold, A. S. Lundervold, for the Alzheimer’s Disease
+Neuroimaging Initiative and for the Australian Imaging Biomarkers and Lifestyle flagship study of ageing,
+str. 2Norsk IKT-konferanse for forskning og utdanning, 2020 ([link](https://www.dropbox.com/scl/fi/kbdc5xrph9snduhxuz7ew/Meeting-notes-Revision-skullstrip-NIK2020.paper?rlkey=eyo93bnex5yxfcseptu219vs5&dl=0)).
