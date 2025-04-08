@@ -1,5 +1,3 @@
-# 2d-3d-unet-skullstripping
-
 # 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai"
 
 This paper presents two novel skull stripping methods for brain MRI images using 2D and 3D convolutional neural networks (CNNs). Skull stripping, also known as brain extraction, is the process of removing non-brain tissue from MRI head scans, which is a crucial preprocessing step for many brain imaging applications.
