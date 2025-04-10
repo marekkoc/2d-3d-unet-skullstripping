@@ -1,6 +1,12 @@
 # 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai"
 
 This paper presents two novel skull stripping methods for brain MRI images using 2D and 3D convolutional neural networks (CNNs). Skull stripping, also known as brain extraction, is the process of removing non-brain tissue from MRI head scans, which is a crucial preprocessing step for many brain imaging applications.
+<br>
+<table align="center">
+  <tr><td><img src="figs/fig1.png" alt="fig1"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Anatomy of the head related to the brain extraction task. A coronal slice from a 3D T1-weighted (T1w) MRI recording from the head showing the different anatomical structures relevant to the segmentation task of skull stripping or brain extraction (data from [5]). Fully automated segmentation of brain (ribbon) including gray matter (gm) and white matter (wm) of the left and right hemisphere and the outer pial boundary of the brain (white continuous tracing and the surface rendering in the small insert) was performed using Freesurfer v.7.1.1. CFS = cerebrospinal fluid. A color version of the image is available ([here](https://tinyurl.com/skull-NIK2020-figure1)).</span></i></td></tr>
+</table>
+<br>
 
 ## Key Aspects of the Research
 
