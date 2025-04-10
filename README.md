@@ -3,7 +3,7 @@
 This paper presents two novel skull stripping methods for brain MRI images using 2D and 3D convolutional neural networks (CNNs). Skull stripping, also known as brain extraction, is the process of removing non-brain tissue from MRI head scans, which is a crucial preprocessing step for many brain imaging applications.
 <br>
 <table align="center">
-  <tr><td><img src="figs/fig1.png" alt="fig1"></td></tr>
+  <tr><td align="center"><img src="figs/fig1.png" alt="fig1"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Anatomy of the head related to the brain extraction task. A coronal slice from a 3D T1-weighted (T1w) MRI recording from the head showing the different anatomical structures relevant to the segmentation task of skull stripping or brain extraction (data from [5]). Fully automated segmentation of brain (ribbon) including gray matter (gm) and white matter (wm) of the left and right hemisphere and the outer pial boundary of the brain (white continuous tracing and the surface rendering in the small insert) was performed using Freesurfer v.7.1.1. CFS = cerebrospinal fluid.</span></i></td></tr>
 </table>
 <br>
@@ -36,14 +36,14 @@ This paper presents two novel skull stripping methods for brain MRI images using
 - The authors note that once a certain threshold of accuracy is reached, robustness to variation becomes more important than increased accuracy at reproducing ground truth labels.
   <br>
     <table align="center">
-      <tr><td><img src="figs/fig4.png" alt="fig4"></td></tr>
+      <tr><td align="center"><img src="figs/fig4.png" alt="fig4"></td></tr>
       <tr><td align="center"><i><span style="font-size:smaller;">Violin plot of the Dice scores obtained by our models on the test dataset. Column names at the bottom of the plot refer to their database sources. The dots along the lower tail of the DSC distributions indicate outliers.</span></i></td></tr>
     </table>
   <br>
 - The CNN-based approaches showed some robustness advantages over traditional skull stripping methods like FSL.
 <br>
   <table align="center">
-  <tr><td><img src="figs/fig6.png" alt="fig6"></td></tr>
+  <tr><td align="center"><img src="figs/fig6.png" alt="fig6"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Predicition on a T1w image.</span></i></td></tr>
   </table>
 <br>
